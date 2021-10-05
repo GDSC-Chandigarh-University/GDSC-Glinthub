@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+.logo {
+  display: flex;
+  gap: 0.7rem;
+  align-items: center;
+}
+
+.logo > img {
+  width: 55px;
+}
+
+.logo_heading {
+  font-size: 16px;
+  color: #525252;
+}
+
+.logo_content {
+  font-size: 12px;
+  color: #525252;
+}
+
+.dashboard_options {
+  list-style: none;
+  display: flex;
+  gap: 2.5rem;
+  align-items: center;
+  flex-direction: colum;
+}
+
+.dashboard_link {
+  text-decoration: none;
+  color: #757575;
+  font-size: 14px;
+}
+
+.profile_img {
+  width: 44px;
+  border-radius: 100%;
+  vertical-align: middle;
+}
+
+.dashboard_pos {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 2rem;
+  padding: 0.2rem 0;
+}
+
+#dashboard {
+  background: #ececec;
+}
