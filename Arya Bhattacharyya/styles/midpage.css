@@ -63,20 +63,24 @@ body {
   margin-top: 10px;
 }
 
-.mid-tile div {
+.mid-tile .img-box {
+  float: right;
+}
+
+.mid-tile .text-box {
   margin-top: 120px;
 }
 
-.mid-tile div h1 {
+.mid-tile .text-box h1 {
   font-weight: 700;
   opacity: 80%;
 }
 
-.mid-tile div .number {
+.mid-tile .text-box .number {
   margin-left: 53px;
 }
 
-.mid-tile div .text {
+.mid-tile .text-box .text {
   text-align: center;
 }
 
