@@ -41,7 +41,7 @@
   clear: both;
   position: relative;
   top: -43px;
-  left: 25px;
+  left: 35px;
 }
 
 .draft-tile .text-box {
@@ -61,6 +61,10 @@
 
 #tile-1 .img-box .icon {
   margin-top: -5px;
+}
+
+#tile-1 .img-box .edit {
+  left: 25px;
 }
 
 #tile-1 .text-box {

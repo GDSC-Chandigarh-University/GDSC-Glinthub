@@ -39,7 +39,7 @@
             clear: both;
             position: relative;
             top: -43px;
-            left: 25px;
+            left: 35px;
         }
     }
 
@@ -57,11 +57,15 @@
 
 #tile-1  {
     .img-box {
+        width: 162px;
+
         .icon {
             margin-top: -5px;
         }
 
-        width: 162px;
+        .edit {
+            left: 25px;
+        }
     }
 
     .text-box {
