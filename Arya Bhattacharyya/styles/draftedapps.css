@@ -4,6 +4,10 @@
   color: #525252;
 }
 
+#draft-title h1 {
+  font-weight: 700;
+}
+
 #draft-line {
   margin-left: 40px;
   width: 847px;
